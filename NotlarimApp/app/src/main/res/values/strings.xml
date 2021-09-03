@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Notlarim App</string>
+    <string name="txt_todo">TODO</string>
+    <string name="txt_welcome">Welcome</string>
+    <string name="txt_keterangan">Please sign in to continue</string>
+    <string name="txt_forget_password">Forget Password?</string>
+    <string name="txt_email">tiyasaria123@gmail.com</string>
+    <string name="txt_password">password</string>
+    <string name="txt_sign_in">Sign In</string>
+    <string name="txt_or">Or</string>
+    <string name="txt_with_gogle">Sign In with Google</string>
+    <string name="txt_keterangan2">Do you have an account?</string>
+    <string name="txt_sign_up">Sign Up</string>
+</resources>

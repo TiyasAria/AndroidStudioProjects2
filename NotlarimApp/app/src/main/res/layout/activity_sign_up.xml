@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/sign_up"
+    tools:context=".SignUpActivity"
+    android:background="#3D7EA6">
+
+    <ImageView
+        android:id="@+id/lingkaran"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/lingkaran"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+
+    <EditText
+        android:id="@+id/et_email_daftar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="37dp"
+        android:background="@drawable/rounded_box"
+        android:drawableStart="@drawable/ic_email"
+        android:drawablePadding="8dp"
+        android:drawableTint="@android:color/darker_gray"
+        android:hint="tiyasaria123@gmail.com"
+        android:textColorHint="#8A8888"
+        android:textColor="@color/black"
+        android:inputType="textEmailAddress"
+        android:padding="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toBottomOf="@id/subtitle"
+        />
+
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="100dp"
+        android:fontFamily="@font/poppins"
+        android:text="Create Account"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/lingkaran"/>
+
+    <TextView
+        android:id="@+id/subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins"
+        android:text="It’s  great to see you "
+        android:textColor="#FFA6A6"
+        android:textSize="18sp"
+        android:layout_marginEnd="@dimen/_30dp"
+        app:layout_constraintEnd_toEndOf="@+id/welcome"
+        app:layout_constraintStart_toStartOf="@+id/welcome"
+        app:layout_constraintTop_toBottomOf="@id/welcome" />
+
+    <EditText
+        android:id="@+id/et_password_daftar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="37dp"
+        android:background="@drawable/rounded_box"
+        android:drawableStart="@drawable/pwd"
+        android:drawablePadding="8dp"
+        android:drawableTint="@android:color/darker_gray"
+        android:hint="password"
+        android:textColorHint="#8A8888"
+        android:textColor="@color/black"
+        android:inputType="textPassword"
+        android:padding="16dp"
+        app:layout_constraintEnd_toEndOf="@+id/et_email_daftar"
+        app:layout_constraintStart_toStartOf="@+id/et_email_daftar"
+        app:layout_constraintTop_toBottomOf="@+id/et_email_daftar" />
+
+    <EditText
+        android:id="@+id/et_confirm_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="37dp"
+        android:background="@drawable/rounded_box"
+        android:drawableStart="@drawable/pwd"
+        android:drawablePadding="8dp"
+        android:drawableTint="@android:color/darker_gray"
+        android:hint=" Confirm password"
+        android:textColorHint="#8A8888"
+        android:textColor="@color/black"
+        android:inputType="textPassword"
+        android:padding="16dp"
+        app:layout_constraintEnd_toEndOf="@+id/et_password_daftar"
+        app:layout_constraintStart_toStartOf="@+id/et_password_daftar"
+        app:layout_constraintTop_toBottomOf="@+id/et_password_daftar" />
+
+    <Button
+        android:id="@+id/btn_daftar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="37dp"
+        android:background="@drawable/background_button"
+        android:fontFamily="@font/poppins"
+        android:text="Sign Up"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/et_confirm_password" />
+
+    <TextView
+        android:id="@+id/qa_signin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="30dp"
+        android:fontFamily="@font/poppins"
+        android:text="Already have an account?"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_daftar" />
+
+    <TextView
+        android:id="@+id/tv_signin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="7dp"
+        android:fontFamily="@font/poppins"
+        android:text="Sign In"
+        android:textColor="#FFA5A5"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/qa_signin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/qa_signin"
+        app:layout_constraintTop_toTopOf="@+id/qa_signin"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

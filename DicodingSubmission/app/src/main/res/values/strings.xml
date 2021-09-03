@@ -1,0 +1,168 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Dicoding Submission</string>
+    <string name="txt_todo">TODO</string>
+    <string name="txt_slogan">See The Beauty In Everyday Things</string>
+    <string name="txt_judul">Judul Scarlett</string>
+    <string name="txt_harga">Harga Scarleet</string>
+    <string name="txt_desc">Scarlett Whitening Body Scrub Pomegrante dibuat khusus dengan buliran scrub yang sangat halus dan tetap bisa membantu mengangkat kotoran atau sel-sel kulit mati di kulit tubuh secara lebih maksimal tanpa rasa takut kulit akan terjadinya iritasi!</string>
+    <string name="txt_name">Tiyas Aria</string>
+    <string name="txt_alamat_email">tiyasaria123@gmail.com</string>
+    <string-array name="data_name">
+        <item>Brightening Fragrance Body Lotion – Charming</item>
+        <item>Body Scrub – Romansa</item>
+        <item>Acne Cream Day</item>
+        <item>Acne Cream Night</item>
+        <item>Brightening Facial Wash – All Skin Type</item>
+        <item>Brightly Ever After Cream Day</item>
+        <item>Brightly Ever After Cream Night</item>
+        <item>Serum – Acne</item>
+        <item>Serum – Brightly Ever After</item>
+        <item>Yordanian Sea Salt – Shampoo</item>
+    </string-array>
+
+    <string-array name="data_price">
+        <item>Rp75.000</item>
+        <item>Rp75.000</item>
+        <item>Rp75.000</item>
+        <item>Rp75.000</item>
+        <item>Rp75.000</item>
+        <item>Rp75.000</item>
+        <item>Rp75.000</item>
+        <item>Rp75.000</item>
+        <item>Rp75.000</item>
+        <item>Rp75.000</item>
+    </string-array>
+
+    <string-array name="data_description">
+        <item>Karena terdapat kandungan Glutathione (Mother of Antioxidant) dan Vitamin E yang sangat bagus dan efektif untuk membantu merawat kulit tubuh di dalam Scarlett Whitening Body Lotion Charming, maka penggunaan secara rutin dapat membantu menutrisi, melembabkan serta mencerahkan kulit tubuh secara lebih maksimal.</item>
+        <item>Scarlett Whitening Body Scrub Romansa dibuat khusus dengan buliran scrub yang sangat halus dan tetap bisa membantu mengangkat kotoran atau sel-sel kulit mati di kulit tubuh secara lebih maksimal tanpa rasa takut kulit akan terjadinya iritasi! Dengan menggunakan Scarlett Whitening Body Scrub Romansa minimal 2x dalam 1 minggu dapat membantu memaksimalkan proses regenarasi kulit karena terdapat kandungan Glutathione (Mother of Antioxidant), Vitamin E dan buliran scrub halus yang bagus untuk meregenerasi, melembabkan serta mencerahkan kulit tubuh secara lebih maksimal.</item>
+        <item>Didalam Acne Day Cream terdapat kandungan Double Action Salicylic Acid, Natural Squalane, Hexapeptide-8, Natural Vit-C, Triceramide dan Aqua Peptide Glow yang dimana bermanfaat sebagai :
+            1. Membantu bekerja paling baik untuk meredakan peradangan jerawat serta kemerahan pada kulit wajah.
+
+2. Membantu meningkatkan kelembapan sehingga kulit tampak lebih sehat dan cerah.
+
+3. Membantu menghilangkan garis halus juga mengencangkan kulit wajah.
+
+4. Membantu memperbaiki tekstur pada kulit wajah.
+
+5. Membantu memudarkan bekas-bekas jerawat pada kulit wajah.
+
+6. Membantu memberi nutrisi pada kulit wajah.
+
+7. Sebagai antioksidan dan melindungi sel kulit dari kerusakan radikal bebas yang disebabkan oleh paparan sinar UV.
+
+Cara Pakai : Gunakan Acne Day Cream secara rutin saat pagi hari sesudah membersihkan kulit wajah. Diamkan beberapa saat hingga Acne Day Cream meresap ke kulit.</item>
+        <item>Didalam Acne Night Cream terdapat kandungan CM Acnatu, Natural Squalane, Hexapeptide-8, Triceramide, Poreaway, Natural Vit-C dan Aqua Peptide Glow yang dimana bermanfaat sebagai :
+
+1. Membantu sebagai anti bakteri dan anti inflamasi alami yang dapat membantu melawan bakteri penyebab jerawat.
+
+2. Membantu mengurangi kemerahan dan bengkak.
+
+3. Membantu menghilangkan garis halus juga mengencangkan kulit wajah.
+
+4. Membantu memperbaiki tekstur bekas jerawat pada kulit wajah.
+
+5. Membantu mengecilkan pori-pori pada kulit wajah.
+
+6. Membantu memudarkan bekas-bekas jerawat pada kulit wajah.
+Cara Pakai : Gunakan Acne Night Cream secara rutin saat malam hari sesudah membersihkan kulit wajah. Diamkan beberapa saat hingga Acne Night Cream meresap ke kulit.</item>
+        <item>Di dalam Scarlett Whitening Facial Wash terdapat kandungan Glutathione, Vitamin E, Rose Petals dan Aloe Vera yang sangat bagus untuk :
+
+1. Membantu mencerahkan wajah.
+
+2. Membantu menutrisi serta mengecilkan pori-pori di wajah.
+
+3. Membantu mengontrol kadar minyak berlebih di wajah.
+
+4. Membantu menghilangkan beruntus/jerawat di wajah.
+
+5. Membantu meregenerasi kulit wajah agar tampak lebih fresh.</item>
+        <item>Didalam Brightly Ever After Day Cream terdapat kandungan Glutathione, Rainbow Algae, Hexapeptide-8, Rosehip Oil, Poreaway, Triceramide dan Aqua Peptide Glow yang dimana bermanfaat sebagai :
+
+1. Membantu meningkatkan kelembapan serta elastisitas kulit wajah.
+
+2. Membantu mencerahkan kulit wajah secara merata.
+
+3. Membantu memudarkan bekas-bekas jerawat pada kulit wajah.
+
+4. Membantu meingkatkan hidrasi kulit, menutrisi kulit juga membuat kulit menjadi lebih glowing.
+
+5. Membantu menghilangkan garis halus juga mengencangkan kulit wajah.
+
+6. Membantu meingkatkan hidrasi kulit, menutrisi kulit juga membuat kulit menjadi lebih glowing. 7
+
+. Sebagai antioksidan dan melindungi sel kulit dari kerusakan radikal bebas yang disebabkan oleh paparan sinar UV.
+
+Cara Pakai : Gunakan Brightly Ever After Day Cream secara rutin saat pagi hari sesudah membersihkan kulit wajah. Diamkan beberapa saat hingga Brightly Ever After Day Cream meresap ke kulit.</item>
+        <item>Didalam Brightly Ever After Night Cream terdapat kandungan Glutathione, Niacinamide, Natural Vit-C, Hexapeptide-8, Poreaway, Green Caviar dan Aqua Peptide Glow yang dimana bermanfaat sebagai :
+
+1. Membantu meningkatkan kelembapan serta elastisitas kulit wajah.
+
+2. Membantu mencerahkan kulit wajah secara merata.
+
+3. Membantu memudarkan bekas-bekas jerawat pada kulit wajah.
+
+4. Membantu mengecilkan pori-pori pada kulit wajah.
+
+5. Membantu menghilangkan garis halus juga mengencangkan kulit wajah.
+
+6. Membantu meingkatkan hidrasi kulit, menutrisi kulit juga membuat kulit menjadi lebih glowing.
+
+7. Sebagai antioksidan dan melindungi sel kulit dari kerusakan radikal bebas yang disebabkan oleh paparan sinar UV.
+
+Cara Pakai : Gunakan Brightly Ever After Night Cream secara rutin saat malam hari sesudah membersihkan kulit wajah. Diamkan beberapa saat hingga Brightly Ever Night After Cream meresap ke kulit.</item>
+
+        <item>Di dalam Acne Serum terdapat kandungan Tea Tree Leaf Water, Salicylic Acid, Jeju Centella Asiatica, Liquorice Extract dan Vitamin C yang dimana bermanfaat sebagai :
+
+1. Membantu menyembuhkan jerawat meradang, jerawat batu, kulit kemerahan dan iritasi.
+
+2. Membantu meregenerasi dan menjaga kulit yang sensitive tanpa menimbulkan iritasi.
+
+3. Membantu menenangkan kulit, menghaluskan dan juga membantu memudarkan bekas jerawat atau luka.
+
+4. Membantu mencerahkan kulit secara aman karena menggunakan Liquorice Extract dan Vitamin C yang juga berfungsi sebagai anti oxidant + anti pollution.
+
+5. Membantu mengontrol kadar minyak berlebih di kulit.
+
+Cara Pakai : Teteskan 2-3 tetes serum, usap dan pijat secara perlahan sampai merata pada kulit wajah. Diamkan beberapa saat agar serum meresap ke kulit.</item>
+        <item>Di dalam Brightly Ever After Serum terdapat kandungan Phyto Whitening, Glutathione, Vitamin C, Niacinamide dan Lavender Water yang dimana bermanfaat sebagai :
+
+1. Membantu mencerahkan kulit dan memudarkan noda di wajah seperti hiperpigmentasi, bekas jerawat, flek dan bekas luka.
+
+2. Membantu mengontrol kadar minyak berlebih di kulit, membantu mengeceilkan pori-pori, mengimprovisasi warna kulit, menghaluskan kerutan dan juga garis di kulit.
+
+3. Membantu menutrisi dan melembabkan kulit.
+
+4. Membantu membuat kulit menjadi lebih relax dan calm.
+
+5. Bekerja sebagai antioxidant dan juga sebagai anti pollution.
+
+Cara Pakai : Teteskan 2-3 tetes serum, usap dan pijat secara perlahan sampai merata pada kulit wajah. Diamkan beberapa saat agar serum meresap ke kulit.</item>
+        <item>Rasakan sensasi keharuman cuci rambut dirumah tapi terasa cuci rambut di salon! Manfaat Yordanian Sea Salt Shampoo :
+
+– Membantu mengurangi kadar minyak berlebih di kulit kepala.
+
+– Membantu mengurangi kulit kepala atau ketombe.
+
+– Membantu menstimulasi pertumbuhan rambut.
+
+– Membantu memperkuat folikel rambut.
+
+– Membantu membuat rambut jadi lebih bervolume.
+
+Dapatkan perawatan rambut yang lebih maksimal dengan menggunakan secara bersamaan Yordanian Sea Salt Shampoo dan Conditioner setiap mencuci rambut.</item>
+    </string-array>
+
+    <string-array name="data_photo">
+        <item>https://cf.shopee.co.id/file/b1a12ee1cd6ef841bd02fb3a5e93231f</item>
+        <item >data:image/jpeg;base64,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</item>
+        <item >https://scarlettwhitening.com/wp-content/uploads/2021/02/creamacneday1-150x150.jpg</item>
+        <item >data:image/jpeg;base64,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</item>
+        <item>https://scarlettwhitening.com/wp-content/uploads/2021/02/facewash1-150x150.jpg</item>
+        <item >https://scarlettwhitening.com/wp-content/uploads/2021/02/creambrightlyday1-150x150.jpg</item>
+        <item >https://scarlettwhitening.com/wp-content/uploads/2021/02/creambrightlynight1-150x150.jpg</item>
+        <item >https://scarlettwhitening.com/wp-content/uploads/2021/02/serumacne1-150x150.jpg</item>
+        <item >https://scarlettwhitening.com/wp-content/uploads/2021/02/serumbrightly1-150x150.jpg</item>
+        <item >https://scarlettwhitening.com/wp-content/uploads/2021/02/hairshampoo1-150x150.jpg</item>
+    </string-array>
+</resources>

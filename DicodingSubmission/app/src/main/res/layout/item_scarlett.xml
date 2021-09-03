@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_100dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="@dimen/_20dp"
+    android:background="@color/white"
+    app:cardCornerRadius="@dimen/_16dp"
+    android:elevation="@dimen/_20dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cdv_img_item"
+            android:layout_width="@dimen/_80dp"
+            android:layout_height="@dimen/_80dp"
+            android:layout_marginStart="@dimen/_10dp"
+            app:cardCornerRadius="@dimen/_16dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/img_item"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:contentDescription="@string/txt_todo"
+                android:src="@drawable/logo" />
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/tv_judul"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_10dp"
+            android:layout_marginTop="4dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="@string/txt_judul"
+            android:textSize="@dimen/_18sp"
+            android:textStyle="bold"
+            android:layout_marginEnd="@dimen/_10dp"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/cdv_img_item"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_harga"
+            app:layout_constraintTop_toBottomOf="@id/tv_judul"
+            app:layout_constraintStart_toEndOf="@id/cdv_img_item"
+            android:layout_marginStart="@dimen/_10dp"
+            android:layout_marginTop="4dp"
+            android:textSize="@dimen/_14sp"
+            />
+
+        <TextView
+            android:id="@+id/tv_desc"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_10dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="@dimen/_10dp"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:text="@string/txt_desc"
+            android:textSize="@dimen/_12sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/cdv_img_item"
+            app:layout_constraintTop_toBottomOf="@id/tv_price" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.cardview.widget.CardView>
